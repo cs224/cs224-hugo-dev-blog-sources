@@ -6,6 +6,7 @@ DefaultContentLanguage = "en"
 relativeURLs = true
 uglyURLs = true
 enableEmoji = true
+enableRobotsTXT = true
 
 # disqusShortname = "yourdiscussshortname"
 
