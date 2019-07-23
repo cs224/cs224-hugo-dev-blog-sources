@@ -1,3 +1,38 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+baseURL = "http://cs224.github.io/"
+languageCode = "en-gb"
+title = "cs224-dev-blog"
+theme = "ananke"
+DefaultContentLanguage = "en"
+relativeURLs = true
+uglyURLs = true
+enableEmoji = true
+
+# disqusShortname = "yourdiscussshortname"
+
+[params]
+    custom_css = ["dist/css/sharingbuttons.css"]
+
+[privacy]
+  [privacy.disqus]
+    disable = false
+  [privacy.googleAnalytics]
+    disable = true
+    anonymizeIP = true
+    respectDoNotTrack = true
+    useSessionStorage = true
+  [privacy.instagram]
+    disable = true
+    simple = true
+  [privacy.twitter]
+    disable = true
+    enableDNT = true
+    simple = true
+  [privacy.vimeo]
+    disable = true
+    simple = true
+  [privacy.youtube]
+    disable = true
+    privacyEnhanced = true
+
+[blackfriday]
+  hrefTargetBlank = true
