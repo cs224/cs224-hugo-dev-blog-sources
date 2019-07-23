@@ -12,6 +12,7 @@ enableRobotsTXT = true
 
 [params]
     custom_css = ["dist/css/sharingbuttons.css"]
+    env = "production"
 
 [privacy]
   [privacy.disqus]
